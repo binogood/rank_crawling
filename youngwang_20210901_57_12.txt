@@ -1,0 +1,18 @@
+﻿-- 테이블 순서는 관계를 고려하여 한 번에 실행해도 에러가 발생하지 않게 정렬되었습니다.
+
+-- company Table Create SQL
+CREATE TABLE company
+(
+    `id`               INT            NOT NULL    AUTO_INCREMENT, 
+    `company_name`     VARCHAR(45)    NULL, 
+    `business_number`  VARCHAR(30)    NULL, 
+    `owner`            VARCHAR(20)    NULL, 
+    `industrial_name`  VARCHAR(20)    NULL, 
+    `tel`              VARCHAR(20)    NULL, 
+    `address`          VARCHAR(50)    NULL, 
+    `latitude`         FLOAT          NULL, 
+    `longitude`        FLOAT          NULL, 
+     PRIMARY KEY (id)
+);
+
+
